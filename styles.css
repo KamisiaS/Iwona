@@ -1,0 +1,302 @@
+/**********************************************************************/ 
+/************************* GLOBAL RESET ******************************/
+/********************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: static;
+}
+
+body {
+    font-family: Georgia, Arial, sans-serif;
+    background-color: #F6E7D7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px 40px;
+}
+
+/**********************************************************************/ 
+/************************* NAVIGATION & LOGO *************************/
+/********************************************************************/
+.navbar img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #8D7B68;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/**********************************************************************/ 
+/************************* INTRODUCTION ******************************/
+/********************************************************************/
+.home-section {
+  display: flex;
+}
+
+.home-section img {
+  width: 350px;
+  height: 100%;
+  border-radius: 12px;
+  margin: 2rem;
+}
+
+.home-text {
+  float: right;
+}
+
+.home-text p {
+  margin: 3rem;
+}
+
+#firstWord {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/**********************************************************************/ 
+/**************** MY EXPERIENCE SECTION ******************************/
+/********************************************************************/
+
+.experience-section {
+  position: relative;
+}
+
+.experience-section h1 {
+  font-size: 35px;
+  text-align: center;
+  width: 1375px; 
+}
+
+.experience-section img {
+    width: 100%;
+    max-height: 450px;
+    max-width: 450px;
+    float: right;
+    border-radius: 12px;
+    margin: 25px;
+}
+
+.experience-text p {
+    padding: 20px;
+}
+
+/**********************************************************************/ 
+/**************** CREATIVE THERAPIES SECTION *************************/
+/********************************************************************/
+
+.container-wrapper {
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-box {
+  margin-bottom:  20px;;
+}
+
+
+#creativeHeading {
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  width: 1345px; 
+}
+
+.container-wrapper img {
+    width: 100%;
+    position: relative;
+    top: 55px;
+    right: 20px;
+    max-height: 1200px;
+    max-width: 450px;
+    float: right;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.content-box h2 {
+  position: relative;
+  padding-left: 15px;
+  width: 1200px;
+}
+
+.content-box p {
+  width: 100%;
+  max-width: 1300px;
+  padding: 15px;
+}
+
+
+.content-box li {
+  width: 100%;
+  max-width: 1300px;
+  list-style-type: circle;
+  padding-left: 15px;
+}
+
+/**********************************************************************/ 
+/**************** TALKING THERAPIES SECTION **************************/
+/********************************************************************/
+.TTsection {
+  background-color: palevioletred;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 15px;  
+}
+
+.TTsection img {
+    border-radius: 12px;
+    position: relative;
+    width: 750px;
+    top: 85px;
+    left: 15px;
+}
+
+.talking-section {
+   background-color: yellow;
+   width: 1000px;
+   position: relative;
+   float: right;
+} 
+
+.talking-section h1 {
+  position: relative;
+  background-color: aqua;
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+/**************** EMD-section SECTION **************************/
+.EMD-section {
+  position: relative;
+  background-color: aqua;
+  width: 1000px;
+  float: right;
+  top: -300px;
+}
+
+.EMD-section h2 {
+  position: relative;
+  background-color: green;
+  text-align: center;
+  width: 100%;
+}
+
+.EMD-section p {
+  position: relative;
+  background-color:blue;
+  width: 100%;
+  padding-left: 5px;;
+}
+
+.EMD-section li {
+  position: relative;
+  background-color: red;
+  width: 100%;
+  margin-left: 25px;
+  list-style-type: circle;
+  width: 975px;
+}
+
+/**************** ACT-section SECTION **************************/
+
+.ACT-section {
+  position: relative;
+  background-color: aqua;
+  width: 1000px;
+  float: right;
+  top: -280px;
+}
+
+.ACT-section h2 {
+  position: relative;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.ACT-section p  {
+  position: relative;
+  background-color: pink;
+  padding: 2px;
+}
+
+.ACT-section li {
+  position: relative;
+  background-color: red;
+  margin-left: 25px;
+  list-style-type: circle;
+  width: 975px;
+}
+
+/**************** DBT-section SECTION **************************/
+
+.DBT-section {
+  position: relative;
+  background-color: orange;
+  top: 130px;
+}
+
+.DBT-section h2 {
+  position: relative;
+  background-color: green;
+  text-align: center;
+  width: 100%;
+}
+
+.DBT-section p  {
+  background-color: pink;
+  padding: 5px;
+}
+
+.DBT-section li {
+  position: relative;
+  background-color: red;
+  width: 100%;
+  margin-left: 25px;
+  list-style-type: circle;
+  width: 975px;
+}
+
+/**************** ABT-section SECTION **************************/
+.ABT-section {
+  background-color: aliceblue;
+  position: relative;
+  top: 140px;
+}
+
+/**************** ABT-section SECTION **************************/
+.per-section {
+  background-color: green;
+  position: relative;
+  top: 150px;
+}
+
+
+/**********************************************************************/ 
+/**************** EXISTENTIAL COACHING SECTION ***********************/
+/********************************************************************/
+.main-coaching {
+  background-color: pink;
+  position: relative;
+  top: 130px;
+}
